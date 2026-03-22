@@ -12,7 +12,7 @@ jobs:
       - name: Install PyInstaller
         run: pip install pyinstaller
       - name: Build with PyInstaller
-        run: pyinstaller --onefile ton_script.py
+        run: pyinstaller --onefile all_open.py
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
